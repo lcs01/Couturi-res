@@ -163,6 +163,8 @@
     /*********/
 
 
+
+/**modif lucas **/
 section {
   max-width: 740px;
   margin: 0 auto;
@@ -173,9 +175,6 @@ section {
     
 }
 
-
-
-
 .navTutosDeb{
     
    margin: 10px; 
@@ -183,11 +182,9 @@ section {
   flex-shrink: 1;
   flex-basis: 0;
 }
+/**modif lucas **/
 
-.navTutosDeb:first-of-type {
-  flex-grow: 2;
-  flex-shrink: 2;
-}
+
     /**********/
     /* FOOTER */
     /**********/
