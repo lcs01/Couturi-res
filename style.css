@@ -1,0 +1,200 @@
+    /***********/
+    /* GENERAL */
+    /***********/
+
+*{
+   
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px black; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+    /* COULEURS TEST */
+
+.couleur1 {
+    background-color: orangered;
+    width: 150%;
+    height: 150px;
+    
+}
+.couleur2 {
+    background-color: #FF0000;
+}
+
+    /************/
+    /* CAROUSSEL*/
+    /************/
+
+.logo {
+    position: relative;
+    top: 80px;
+    left: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+}
+.caroussel {
+    height: 350px;
+    margin: 3vh 5vw;
+}
+
+    /**********/
+    /* NAVBAR */
+    /**********/
+
+.menu {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu ul li {
+    height: 50px;
+    padding: auto 0;
+}
+.menu ul li a {
+  
+}
+
+    /**************/
+    /* Page Index */
+    /**************/
+
+.info-cal {
+    margin: 3vh 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.information{
+    width: 65%;
+    height: 450px;
+    margin-right: 3vw;
+}
+
+#image-info {
+    width: 35%;
+    height: 35%;
+    float: left;
+}
+
+.calendrier{
+    width: 35%;
+    height: 450px;
+}
+
+#imgCalendrier{
+    width:100%;
+    height: 35%;
+}
+
+    /*****************/
+    /**Page*Creation**/
+    /*****************/
+
+.colonne{
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    /*Créations*/
+
+.sections {
+    width: 70%;
+}
+
+.sections p {
+    margin:0;
+}
+
+.section {
+    height: 190px;
+    margin-bottom: 10px;
+}
+.section:last-child {
+    margin-bottom: 0;
+}
+.Creation{
+    width:97%;
+    height:155px;
+    margin:1.7% 1.5% 0 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.Creation img {
+    width: 66%;
+    height: 100%;
+}
+    
+    /*Menu Lateral*/
+
+.menu-lateraux {
+    width: 20%;
+    min-height: 600px;
+}
+.menu-lateral:first-child {
+    margin-bottom: 10%;
+}
+.menu-lateral {
+    height: 50%;
+}
+
+
+    /**********/
+    /**TUTOS**/
+    /*********/
+
+
+section {
+  max-width: 740px;
+  margin: 0 auto;
+   
+    column-count: 2;
+  /*  column-gap: 1; */
+    
+    
+}
+
+
+
+
+.navTutosDeb{
+    
+   margin: 10px; 
+     flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.navTutosDeb:first-of-type {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+    /**********/
+    /* FOOTER */
+    /**********/
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5vh;
+    background-color: darkgoldenrod;
+}
